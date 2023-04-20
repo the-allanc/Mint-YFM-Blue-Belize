@@ -539,7 +539,7 @@ StScrollBar {
   &-top, &-bottom, &-left, &-right {
     color: $selected_fg_color;
     border: none;
-    background-color: transparentize($panel_bg, 0.01);
+    background-color: transparentize($panel_bg, 0.5);
     font-size: 1em;
     padding: 0px;
   }
